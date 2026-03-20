@@ -1,16 +1,16 @@
 {
   "project": {
-    "name": "",
-    "description": "",
-    "type": ""
+    "name": "制造业ERP管理系统",
+    "description": "面向制造业企业的ERP管理系统Demo，覆盖销售、采购、库存、生产、财务等核心业务模块",
+    "type": "新建"
   },
   "customer": {
     "name": "",
-    "industry": "",
-    "requirements": ""
+    "industry": "制造业",
+    "requirements": "制造业ERP管理系统，涵盖进销存、生产、财务等核心模块"
   },
   "metadata": {
-    "createdAt": "",
-    "updatedAt": ""
+    "createdAt": "2026-03-20T00:00:00.000Z",
+    "updatedAt": "2026-03-20T00:00:00.000Z"
   }
 }

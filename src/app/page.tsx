@@ -21,18 +21,12 @@ export default function Home() {
             AI 驱动的企业客户数字化档案管理系统
           </p>
           <div className="flex items-center justify-center gap-4 pt-4">
-            <Link href="/customers">
-              <Button size="lg">查看客户档案</Button>
+            <Link href="/erp">
+              <Button size="lg">进入 ERP 系统</Button>
             </Link>
-            <Button size="lg" variant="outline" asChild>
-              <a
-                href="https://docs.anthropic.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                了解更多
-              </a>
-            </Button>
+            <Link href="/customers">
+              <Button size="lg" variant="outline">查看客户档案</Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -78,11 +72,8 @@ export default function Home() {
           快速开始
         </h2>
         <div className="max-w-2xl mx-auto space-y-4">
-          <Card
-            className="hover:shadow-md transition-shadow cursor-pointer"
-            asChild
-          >
-            <Link href="/customers">
+          <Link href="/customers">
+            <Card className="hover:shadow-md transition-shadow cursor-pointer">
               <CardContent className="flex items-center justify-between p-6">
                 <div>
                   <h3 className="font-medium mb-1">浏览客户档案</h3>
@@ -92,8 +83,8 @@ export default function Home() {
                 </div>
                 <span className="text-muted-foreground">→</span>
               </CardContent>
-            </Link>
-          </Card>
+            </Card>
+          </Link>
 
           <Card className="hover:shadow-md transition-shadow">
             <CardContent className="p-6">
